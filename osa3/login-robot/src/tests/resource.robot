@@ -4,6 +4,7 @@ Library  ../AppLibrary.py
 *** Keywords ***
 Input Login Command
     Input  login
+    Input  New Command
 
 Input Credentials
     [Arguments]  ${username}  ${password}
